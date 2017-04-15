@@ -312,7 +312,7 @@ public class LoginActivity extends BaseActivity implements LoaderCallbacks<Curso
             final SharedPreferences prefs = getSharedPreferences(
                     BuildConfig.APPLICATION_ID, Context.MODE_PRIVATE);
 
-            APIClient client = createServie();
+            APIClient client = createService(APIClient.class);
             Call<AccessToken> call = client.getNewAccessToken(mEmail, mPassword);
 
             call.enqueue(new Callback<AccessToken>() {
