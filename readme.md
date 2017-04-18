@@ -1,6 +1,6 @@
 # RameIn Android
 
-RameIn Android is an blazing awesome app.
+RameIn Android is a blazing awesome app.
 
 ## Security Vulnerabilities
 
