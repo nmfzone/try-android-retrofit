@@ -16,7 +16,6 @@ public interface APIClient
             @Field("username") String username,
             @Field("password") String password);
 
-    @FormUrlEncoded
     @POST("/refresh-token")
     Call<AccessToken> getRefreshAccessToken();
 
